@@ -9,15 +9,15 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
-      'A Test Reciep',
-      'This is simple Test',
-      'https://www.acouplecooks.com/wp-content/uploads/2019/11/Recipes-Header-1.jpg',
+      'A Soup Reciep',
+      'This is simple soup recipe',
+      '/assets/SoupRecipe.png',
       [new Ingredient('Meat', 1), new Ingredient('French Freis', 20)]
     ),
     new Recipe(
-      'Another Test Reciep',
-      'This is simple Test',
-      'https://www.acouplecooks.com/wp-content/uploads/2019/11/Recipes-Header-1.jpg',
+      'Amburger Reciep',
+      'This is great recipe for testy amburger',
+      '/assets/AmburgerRecipe.png',
       [new Ingredient('Buns', 2), new Ingredient('Meat', 1)]
     ),
   ];
